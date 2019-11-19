@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.search-form {
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.search-input {
+  width: 20%;
+  /* display: inline-block;
+  background: none; */
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 10px 15px;
+  color: rgb(100, 87, 87);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 15px;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.photo-card img {
+  margin: 0 auto;
+  max-width: 100%;
+  display: block;
+}
+
+.button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+}
